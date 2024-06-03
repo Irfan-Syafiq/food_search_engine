@@ -1,0 +1,140 @@
+id,menu,college,price,category,description
+1,Takoyaki,12,5.00,Snack,A Japanese snack made of wheat flour-based batter and typically filled with minced or diced octopus.
+2,Waffle,12,5.00,Snack,"A dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression."
+3,Toast,12,5.00,Snack,"Slices of bread browned on both sides, often served with butter or spreads."
+4,Kaya Ball,12,5.00,Snack,"Small pastry balls filled with kaya, a sweet coconut jam made from coconut milk, eggs, and sugar."
+5,Chicken Satay,12,2.50,Snack,"Skewers of seasoned, grilled chicken, often served with peanut sauce."
+6,Chicken Cut,12,8.00,Snack,"Pieces of chicken that are cut and prepared in a specific style, often breaded and fried."
+7,Chicken Burger,12,3.50,Burger,A sandwich consisting of a cooked chicken patty placed inside a sliced bread roll or bun.
+8,Beef Burger,12,3.50,Burger,A sandwich consisting of a cooked beef patty placed inside a sliced bread roll or bun.
+9,Chicken Burger Double,12,5.00,Burger,A sandwich consisting of two cooked chicken patties placed inside a sliced bread roll or bun.
+10,Beef Burger Double,12,5.00,Burger,A sandwich consisting of two cooked beef patties placed inside a sliced bread roll or bun.
+11,Iced Mango,12,4.00,Drink,"A cold beverage made with mango juice or puree, often served with ice."
+12,Mango Float,12,6.60,Drink,"A cold beverage made with mango juice or puree, topped with ice cream."
+13,Iced Dragon Fruit,12,4.00,Drink,"A cold beverage made with dragon fruit juice or puree, often served with ice."
+14,Iced Blueberry,12,4.00,Drink,"A cold beverage made with blueberry juice or puree, often served with ice."
+15,Dragon Fruit Float,12,6.60,Drink,"A cold beverage made with dragon fruit juice or puree, topped with ice cream."
+16,Blueberry Float,12,6.60,Drink,"A cold beverage made with blueberry juice or puree, topped with ice cream."
+17,French Fries,12,6.00,Snack,Strips of potato that are deep-fried until crispy and golden brown.
+18,Chicken Shawarma,12,6.00,Eastern,A Middle Eastern dish consisting of seasoned chicken cooked on a vertical rotisserie and served in a wrap or pita.
+19,Beef Shawarma,12,8.00,Eastern,A Middle Eastern dish consisting of seasoned beef cooked on a vertical rotisserie and served in a wrap or pita.
+20,Big Egg Shawarma,12,10.00,Eastern,"A larger portion of shawarma that includes eggs, typically served in a wrap or pita."
+21,Arabic Rice,12,12.00,Eastern,A flavorful rice dish cooked with spices and often served with meat or vegetables.
+22,Chicken Gepuk,12,6.00,Malay,"An Indonesian dish of smashed fried chicken, usually served with sambal and rice."
+23,Chicken Penyet,12,7.00,Malay,"An Indonesian dish of smashed fried chicken, served with sambal, tofu, tempeh, and rice."
+24,Steamed Rice,12,6.00,Malay,"Plain white rice that has been steamed served with fried chicklen with salad, curry gravy, and sambal."
+25,Fried Rice,12,5.00,Malay,"A dish of cooked rice that has been stir-fried in a wok and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat."
+26,Blackpepper Fried Rice,12,5.00,Malay,Fried rice flavored with black pepper.
+27,Belacan Fried Rice,12,5.00,Malay,"Fried rice flavored with belacan, a fermented shrimp paste."
+28,Fried Kuew Tiaw,12,5.00,Malay,"A stir-fried flat rice noodle dish, often cooked with soy sauce, eggs, vegetables, and meat."
+29,Fried Noodle,12,5.00,Malay,A dish of noodles that has been stir-fried with various ingredients.
+30,Fried Rice,11,4.50,Malay,"A dish of cooked rice that has been stir-fried in a wok and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat."
+31,Chinese Fried Rice,11,4.50,Malay,"Fried rice prepared in a Chinese style, typically with soy sauce, vegetables, and meat or seafood."
+32,Beef Fried Rice,11,5.50,Malay,Fried rice mixed with pieces of beef.
+33,Seafood Fried Rice,11,6.00,Malay,Fried rice mixed with various types of seafood.
+34,Shrimp Fried Rice,11,5.50,Malay,Fried rice mixed with shrimp.
+35,Octopus Fried Rice,11,5.50,Malay,Fried rice mixed with pieces of octopus.
+36,Cili Padi Fried Rice,11,4.50,Malay,Fried rice cooked with bird's eye chili for a spicy flavor.
+37,Kampung Fried Rice,11,5.00,Malay,"A traditional Malaysian-style fried rice with anchovies, vegetables, and spices."
+38,Tomyam Fried Rice,11,5.00,Malay,"Fried rice flavored with tom yum, a Thai hot and sour soup base."
+39,Pataya Fried Rice,11,6.00,Malay,Fried rice wrapped in an omelette.
+40,Belacan Fried Rice,11,4.50,Malay,"Fried rice flavored with belacan, a fermented shrimp paste."
+41,Salted Fish Fried Rice,11,5.00,Malay,Fried rice mixed with salted fish.
+42,Mushroom Fried Rice,11,4.50,Malay,Fried rice mixed with mushrooms.
+43,Fried Tumeric Chicken Fried Rice,11,6.00,Malay,Fried rice mixed with turmeric-seasoned chicken.
+44,Ladna Fried Rice,11,6.00,Malay,"A type of fried rice mixed with various vegetables and meats, often served with a thick gravy."
+45,Ginger Chicken Fried Rice,11,6.00,Malay,Fried rice mixed with ginger-flavored chicken.
+46,Red Chicken Fried Rice,11,6.00,Malay,Fried rice mixed with chicken cooked in a red sauce.
+47,Red Beef Fried Rice,11,6.50,Malay,Fried rice mixed with beef cooked in a red sauce.
+48,Stir-fry Chicken Fried Rice,11,6.00,Malay,Fried rice mixed with stir-fried chicken.
+49,Stir-fry Seafood Fried Rice,11,7.00,Malay,Fried rice mixed with stir-fried seafood.
+50,USA Fried Rice,11,7.50,Malay,Fried rice serve with chicken cooked in a red sauce and sunnyside up egg
+51,Thai Fried Rice,11,7.50,Malay,"Fried rice prepared in a Thai style, often with fish sauce, lime, and herbs."
+52,Pakapau Fried Rice,11,7.50,Malay,Fried rice mixed with Thai basil and usually minced meat.
+53,Blackpepper Chicken Fried Rice,11,6.00,Malay,Fried rice mixed with black pepper-seasoned chicken.
+54,KFC Fried Chicken Fried Rice,11,6.50,Malay,Fried rice mixed with pieces of fried chicken.
+55,Spicy Chicken Fried Rice,11,6.00,Malay,Fried rice mixed with spicy chicken.
+56,Spicy Beef Fried Rice,11,6.50,Malay,Fried rice mixed with spicy beef.
+57,Spicy Octopus Fried Rice,11,6.50,Malay,Fried rice mixed with spicy octopus.
+58,Powdered Shrimp Fried Rice,11,6.50,Malay,Fried rice mixed with crispy deep-fried shrimp.
+59,Powdered Octopus Fried Rice,11,6.50,Malay,Fried rice mixed with crispy deep-fried octopus.
+60,Mamak Fried Rice,11,4.50,Malay,A type of fried rice popular in Malaysian mamak (Indian Muslim) eateries.
+61,Vege Fried Rice,11,4.00,Malay,Fried rice mixed with vegetables.
+62,Spicy Egg Fried Rice,11,6.00,Malay,Fried rice mixed with spicy eggs.
+63,Fried Rice,12,5.00,Malay,"A dish of cooked rice that has been stir-fried in a wok and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat."
+64,Blackpepper Fried Rice,5,5.00,Malay,Fried rice flavored with black pepper.
+65,Belacan Fried Rice,5,5.00,Malay,"Fried rice flavored with belacan, a fermented shrimp paste."
+66,Fried Kuew Tiaw,5,5.00,Malay,"A stir-fried flat rice noodle dish, often cooked with soy sauce, eggs, vegetables, and meat."
+67,Fried Noodle,5,5.00,Malay,A dish of noodles that has been stir-fried with various ingredients.
+68,Fried Rice,5,4.50,Malay,"A dish of cooked rice that has been stir-fried in a wok and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat."
+69,Chinese Fried Rice,5,4.50,Malay,"Fried rice prepared in a Chinese style, typically with soy sauce, vegetables, and meat or seafood."
+70,Beef Fried Rice,5,5.50,Malay,Fried rice mixed with pieces of beef.
+71,Seafood Fried Rice,5,6.00,Malay,Fried rice mixed with various types of seafood.
+72,Cili Padi Fried Rice,5,4.50,Malay,Fried rice cooked with bird's eye chili for a spicy flavor.
+73,Kampung Fried Rice,5,5.00,Malay,"A traditional Malaysian-style fried rice with anchovies, vegetables, and spices."
+74,Tomyam Fried Rice,5,5.00,Malay,"Fried rice flavored with tom yum, a Thai hot and sour soup base."
+75,Pataya Fried Rice,5,6.00,Malay,Fried rice wrapped in an omelette.
+76,Belacan Fried Rice,5,4.50,Malay,"Fried rice flavored with belacan, a fermented shrimp paste."
+77,Salted Fish Fried Rice,5,5.00,Malay,Fried rice mixed with salted fish.
+78,Mushroom Fried Rice,5,4.50,Malay,Fried rice mixed with mushrooms.
+79,Fried Tumeric Chicken Fried Rice,5,6.00,Malay,Fried rice mixed with turmeric-seasoned chicken.
+80,Red Chicken Fried Rice,5,6.00,Malay,Fried rice mixed with chicken cooked in a red sauce.
+81,Red Beef Fried Rice,5,6.50,Malay,Fried rice mixed with beef cooked in a red sauce.
+82,Stir-fry Chicken Fried Rice,5,6.00,Malay,Fried rice mixed with stir-fried chicken.
+83,Stir-fry Seafood Fried Rice,5,7.00,Malay,Fried rice mixed with stir-fried seafood.
+84,USA Fried Rice,5,7.50,Malay,Fried rice serve with chicken cooked in a red sauce and sunnyside up egg
+85,Thai Fried Rice,5,7.50,Malay,"Fried rice prepared in a Thai style, often with fish sauce, lime, and herbs."
+86,Pakapau Fried Rice,5,7.50,Malay,Fried rice mixed with Thai basil and usually minced meat.
+87,Mamak Fried Rice,5,4.50,Malay,A type of fried rice popular in Malaysian mamak (Indian Muslim) eateries.
+88,Chicken Soup,5,6.00,Malay,"A warm, comforting soup made with chicken, vegetables, and broth."
+89,Beef Soup,5,6.00,Malay,"A hearty soup made with beef, vegetables, and broth."
+90,Vegetable Soup,5,6.00,Malay,A nutritious soup made with a variety of vegetables and broth.
+91,Seafood Soup,5,6.00,Malay,"A flavorful soup made with a mix of seafood, vegetables, and broth."
+92,Chicken Tomyam,5,6.00,Thai,"A spicy and sour Thai soup made with chicken, herbs, and spices."
+93,Beef Tomyam,5,6.00,Thai,"A spicy and sour Thai soup made with beef, herbs, and spices."
+94,Assorted Tomyam,5,6.50,Thai,"A spicy and sour Thai soup made with a mix of meats and seafood, herbs, and spices."
+95,Sunnyside up Egg,5,1.50,Malay,An egg fried on one side until the whites are set but the yolk remains runny.
+96,Omelette,5,1.50,Malay,"Beaten eggs cooked in a frying pan, often with added ingredients like cheese, vegetables, or meat."
+97,Cockle Char Kuew Teow,5,6.00,Malay,"Stir-fried flat rice noodles with cockles, often cooked with soy sauce, eggs, and vegetables."
+98,Teh O,5,1.50,Drink,Black tea without milk.
+99,Lemon Tea,5,1.50,Drink,Black tea flavored with lemon.
+100,Milk Tea,5,2.00,Drink,Tea mixed with milk.
+101,Rose,5,1.50,Drink,A drink flavored with rose syrup.
+102,Milk Rose,5,2.00,Drink,A drink made with rose syrup and milk.
+103,Coffee,5,1.70,Drink,A hot beverage made from brewed coffee beans.
+104,Milk Coffee,5,2.50,Drink,Coffee mixed with milk.
+105,Nescafe,5,2.50,Drink,Instant coffee.
+106,Milo,5,2.50,Drink,A chocolate and malt powder mixed with hot water or milk.
+107,Neslo,5,2.50,Drink,A drink made from a combination of Nescafe and Milo.
+108,Barli,5,2.50,Drink,A drink made from boiled barley grains.
+109,Milk,5,2.50,Drink,Fresh milk.
+110,Laichee,5,2.50,Drink,A drink made from lychee fruit.
+111,Asam Boy,5,2.50,Drink,A sour plum drink.
+112,Fruit Drinks,5,4.00,Drink,Various fruit-flavored drinks.
+113,Teh O,11,1.50,Drink,Black tea without milk.
+114,Lemon Tea,11,1.50,Drink,Black tea flavored with lemon.
+115,Milk Tea,11,2.00,Drink,Tea mixed with milk.
+116,Rose,11,1.50,Drink,A drink flavored with rose syrup.
+117,Milk Rose,11,2.00,Drink,A drink made with rose syrup and milk.
+118,Coffee,11,1.70,Drink,A hot beverage made from brewed coffee beans.
+119,Milk Coffee,11,2.50,Drink,Coffee mixed with milk.
+120,Nescafe,11,2.50,Drink,Instant coffee.
+121,Milo,11,2.50,Drink,A chocolate and malt powder mixed with hot water or milk.
+122,Neslo,11,2.50,Drink,A drink made from a combination of Nescafe and Milo.
+123,Barli,11,2.50,Drink,A drink made from boiled barley grains.
+124,Milk,11,2.50,Drink,Fresh milk.
+125,Laichee,11,2.50,Drink,A drink made from lychee fruit.
+126,Asam Boy,11,2.50,Drink,A sour plum drink.
+127,Fruit Drinks,11,4.00,Drink,Various fruit-flavored drinks.
+128,Teh O,12,1.50,Drink,Black tea without milk.
+129,Lemon Tea,12,2.00,Drink,Black tea flavored with lemon.
+130,Milk Tea,12,2.00,Drink,Tea mixed with milk.
+131,Rose,12,1.50,Drink,A drink flavored with rose syrup.
+132,Milk Rose,12,2.00,Drink,A drink made with rose syrup and milk.
+133,Coffee,12,1.70,Drink,A hot beverage made from brewed coffee beans.
+134,Milk Coffee,12,2.00,Drink,Coffee mixed with milk.
+135,Nescafe,12,2.00,Drink,Instant coffee.
+136,Milo,12,2.00,Drink,A chocolate and malt powder mixed with hot water or milk.
+137,Neslo,12,2.50,Drink,A drink made from a combination of Nescafe and Milo.
+138,Green Tea,12,2.50,Drink,A hot or cold beverage made from green tea leaves.
+139,Fruit Drinks,12,4.00,Drink,Various fruit-flavored drinks.
