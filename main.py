@@ -15,6 +15,7 @@ contains_word = lambda s, l: any(map(lambda x: x in s, l))
 sql=''
 order=''
 
+@st.cache_data
 def preprocess(text):
     # Tokenization
     tokens = nltk.word_tokenize(text.lower())
@@ -29,6 +30,7 @@ def preprocess(text):
     return " ".join(tokens)
 
 # Extract numerical values from text
+@st.cache_data
 def extract_numerical(text):
     # Use regular expression to find numerical values
     numerical_values = re.findall(r'\d+\.?\d*', text)
@@ -112,11 +114,11 @@ if searchbt:
 
 if randombt:
     if user_query:
-        results=embeddings.search(f"select menu, price, college, description from txtai where similar('{preprocessed_query}'){sql} order by random()",limit=5)
+        results=embeddings.search(f"select menu, price, college, description from txtai where similar('{preprocessed_query}'){sql} order by random()",limit=10)
         df = pd.DataFrame.from_dict(results).rename(columns={'menu':'Menu','price':'Price (RM)','college':'Residential College','description':'Description'})
-        st.table(df.style.format(subset=['Price (RM)'], formatter="{:.2f}"))
+        st.table(df.sample().style.format(subset=['Price (RM)'], formatter="{:.2f}"))
     else:
-        results=embeddings.search(f"select menu, price, college, description from txtai order by random()",limit=5)
+        results=embeddings.search(f"select menu, price, college, description from txtai order by random()",limit=1)
         df = pd.DataFrame.from_dict(results).rename(columns={'menu':'Menu','price':'Price (RM)','college':'Residential College','description':'Description'})
         st.table(df.style.format(subset=['Price (RM)'], formatter="{:.2f}"))
         
