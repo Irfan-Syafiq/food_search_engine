@@ -82,7 +82,7 @@ if user_query:
             sql = sql+" and college = "+str(location) 
             break     
 
-col1, col2,col3,col4 = st.columns([1,1,1,1])
+col1, col2,col3,col4,col5 = st.columns([1,1,1,1,1])
 
 with col1:
     searchbt=st.button('Search')
@@ -94,24 +94,29 @@ if searchbt:
     if user_query:
         results = embeddings.search(f"select menu, price, college,description from txtai where similar('{preprocessed_query}'){sql}{order}",limit=5)
         #results = [round(i,2) for i in results['price'] ]
-        df = pd.DataFrame.from_dict(results)
+        df = pd.DataFrame.from_dict(results).rename(columns={'menu':'Menu','price':'Price (RM)','college':'Residential College','description':'Description'})
         #result = [description[x[0]] for x in results]
         #table = df[df['description'].isin(results)]
         #st.write(location)
         # st.write(price)
-        st.write(preprocessed_query)
+        #print(df)
+        #st.write(preprocessed_query)
         # for res in results:
         #     st.write(res)
         #st.dataframe(df.style.format(subset=['price'], formatter="{:.2f}"))
-        st.table(df.style.format(subset=['price'], formatter="{:.2f}"))
+        st.table(df.style.format(subset=['Price (RM)'], formatter="{:.2f}"))
             
     
     else:
-        st.write('stoopit')
+        st.write("Ready to feast? Just type in what you're craving or curious about, and let's discover some tasty options!")
 
 if randombt:
     if user_query:
-        st.table(embeddings.search(f"select menu, price, college, description from txtai where similar('{preprocessed_query}'){sql} order by random()",limit=5))
+        results=embeddings.search(f"select menu, price, college, description from txtai where similar('{preprocessed_query}'){sql} order by random()",limit=5)
+        df = pd.DataFrame.from_dict(results).rename(columns={'menu':'Menu','price':'Price (RM)','college':'Residential College','description':'Description'})
+        st.table(df.style.format(subset=['Price (RM)'], formatter="{:.2f}"))
     else:
-        st.table(embeddings.search(f"select menu, price, college from txtai order by random()",limit=5))
+        results=embeddings.search(f"select menu, price, college, description from txtai order by random()",limit=5)
+        df = pd.DataFrame.from_dict(results).rename(columns={'menu':'Menu','price':'Price (RM)','college':'Residential College','description':'Description'})
+        st.table(df.style.format(subset=['Price (RM)'], formatter="{:.2f}"))
         
